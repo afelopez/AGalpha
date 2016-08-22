@@ -2,7 +2,7 @@
 import random
 modelo = [1,2,3,4,5,6,7,8,9]                                        # Objetivo
 largo = len(modelo)                                                 # longitud del material genetico de cada individuo
-num = 10                                                            # Cantidad de individuos de cada generación
+num = 100                                                           # Cantidad de individuos de cada generación
 progenitores = 3                                                    # Individuos para reproduccion > 2
 mutacion = 0.2                                                      # Probabilidad de mutación
 generaciones = 100
