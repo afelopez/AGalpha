@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import random
-modelo = [1,2,3,4,5,6,7,8,9]                                        # Objetivo
+modelo = [1,2,3,4,5]                                        # Objetivo
 largo = len(modelo)                                                 # longitud del material genetico de cada individuo
-num = 100                                                           # Cantidad de individuos de cada generación
+num = 10                                                           # Cantidad de individuos de cada generación
 progenitores = 3                                                    # Individuos para reproduccion > 2
 mutacion = 0.2                                                      # Probabilidad de mutación
-generaciones = 100
+generaciones = 50
 print '\nModelo: \n' , modelo                              
   
 def individuo(min, max):
